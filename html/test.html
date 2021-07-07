@@ -15,6 +15,7 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- rel my js and css -->
+    <link rel="stylesheet" href="../css/fightGame.css">
 
 </head>
 
@@ -22,14 +23,79 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
-    <div class="d-flex flex-row">
-        <div class="p-2">Flex item 1</div>
-        <div class="p-2">Flex item 2</div>
-        <div class="p-2">Flex item 3</div>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="../images/usersImage/b1.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="../images/usersImage/g1.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="../images/usersImage/b2.png" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="../images/usersImage/g2.png" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
     </div>
-    <div class="d-flex flex-row-reverse ">
-        <div class="p-2">Flex item 1</div>
-        <div class="p-2">Flex item 2</div>
-        <div class="p-2">Flex item 3</div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
     </div>
+
 </body>
+
+
+
+
+
+
+
+        <div class="row ">
+            <div class="col-sm-1">
+                <input id="rightStone" type="image" src="../images/imagefight/stonegif.gif" width="48" height="48" onclick="fightClick()" alt="Submit">
+            </div>
+            <div class="col-sm-1">
+                <label>w</label>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-sm-1 ">
+                <img src="../images/imagefight/paper.png" width="48" height="48">
+
+            </div>
+            <div class="col-sm-1">
+                <label>e</label>
+            </div>
+        </div>
+        <br>
+        <div class="row  ">
+            <div class="col-sm-1 ">
+                <img src="../images/imagefight/Scissors.gif" alt="Johnson Pond" onclick="image()" width="48" height="48">
+
+            </div>
+            <div class="col-sm-1 ">
+                <label>r</label>
+            </div>
+        </div>
+    </div>
+

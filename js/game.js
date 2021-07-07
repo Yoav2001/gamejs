@@ -1,6 +1,23 @@
-window.addEventListener("keydown", function(event) {
-    console.log(event.code)
-}, true);
+// function myFunction(event) {
+//     var x = event.keyCode; // Get the Unicode value
+//     var y = String.fromCharCode(x); // Convert the value into a character
+//     document.getElementById("demo").innerHTML = "Number: " + x + " = Character: " + y;
+// }
+
+
+// myFunction()
+
+
+document.addEventListener("keydown", function(event) {
+
+    let x = event.keyCode; // Get the Unicode value
+    let y = String.fromCharCode(x); // Convert the value into a character
+    if (x = "a") {
+        alert('fsdfsd');
+        console.log("Space was pressed!");
+    }
+});
+
 
 import { game } from './gamedemo';
 let select_left_keybord;
