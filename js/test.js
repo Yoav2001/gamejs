@@ -1,4 +1,9 @@
+    // alert(key_value);
+
+
     window.addEventListener("keydown", function(event) {
+        // let fight = { side: , value: };
+
         let key_value = event.key;
 
 
@@ -15,6 +20,8 @@
 
 
         }
+
+
     });
 
 
