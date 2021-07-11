@@ -1,28 +1,28 @@
-    // alert(key_value);
+    // // alert(key_value);
 
 
-    window.addEventListener("keydown", function(event) {
-        // let fight = { side: , value: };
+    // window.addEventListener("keydown", function(event) {
+    //     // let fight = { side: , value: };
 
-        let key_value = event.key;
-
-
-        let arrKeyFight = [1, 2, 3, "w", "s", "d"];
-
-        let length_arr = arrKeyFight.length;
-
-        for (let i = 0; i < length_arr; i++) {
-            if (key_value == arrKeyFight[i]) {
-
-                alert(key_value);
-            }
+    //     let key_value = event.key;
 
 
+    //     let arrKeyFight = [1, 2, 3, "w", "s", "d"];
 
-        }
+    //     let length_arr = arrKeyFight.length;
+
+    //     for (let i = 0; i < length_arr; i++) {
+    //         if (key_value == arrKeyFight[i]) {
+
+    //             alert(key_value);
+    //         }
 
 
-    });
+
+    //     }
+
+
+    // });
 
 
 
